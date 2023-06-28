@@ -8,3 +8,6 @@ docker push 517426388577.dkr.ecr.us-east-1.amazonaws.com/agroflix-production-ecr
 
 # aplicar recurso específico
 terraform apply -target aws_ecr_repository.aws-ecr
+
+# Configurar /.aws
+aws configure
